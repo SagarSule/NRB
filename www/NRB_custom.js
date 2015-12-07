@@ -10,6 +10,7 @@ url = "http://192.168.1.20:8080/";
 url1 = "http://192.168.1.21:8080/";
 lang = 0;
 vol = 0.8;
+pause = 0;
 var myVar;
 
 phoneui.prePageTransition = function(currentScreenId, targetScreenId) {
@@ -66,10 +67,16 @@ allOff = function()
 	$('#m1-NRB-a_POOLTR1').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	$('#m1-NRB-a_TILT').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	$('#m1-NRB-a_HDOLLY').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
-	$('#m1-NRB-a_WPOLISH').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
+	$('#m1-NRB-a_FUELPOOL').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	$('#m1-NRB-a_FILTER').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 		
 	$('#m1-NRB-o_FULL').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
+	$('#m1-NRB-o_TRUCK').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
+	$('#m1-NRB-o_FPB').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
+	$('#m1-NRB-o_FPIN').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
+	$('#m1-NRB-o_INDEX').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
+	$('#m1-NRB-o_CHOP').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
+	$('#m1-NRB-o_HULL').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	
 	$('#m1-NRB-n_FULL').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	
@@ -96,7 +103,7 @@ allOn = function()
 	$('#m1-NRB-a_POOLTR1').css({'background-color': 'rgb(0,167,184)'}); //Light Blue
 	$('#m1-NRB-a_TILT').css({'background-color': 'rgb(0,167,184)'}); //Light Blue
 	$('#m1-NRB-a_HDOLLY').css({'background-color': 'rgb(0,167,184)'}); //Light Blue
-	$('#m1-NRB-a_WPOLISH').css({'background-color': 'rgb(0,167,184)'}); //Light Blue
+	$('#m1-NRB-a_FUELPOOL').css({'background-color': 'rgb(0,167,184)'}); //Light Blue
 	$('#m1-NRB-a_FILTER').css({'background-color': 'rgb(0,167,184)'}); //Light Blue	
 }
 
