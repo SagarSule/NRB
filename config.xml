@@ -6,7 +6,7 @@
 	id="aakararts.nrb" 
 	version="1.1.0">
     
-    <name>NRB1</name>
+    <name>NRB</name>
     <description>Ipad app to control model of NRB Head End Systems, Tarapur.
 (c)Aakar Arts, 2015</description>
     <author email="contact@aakararts.com" href="http://www.aakararts.com">Aakar Arts</author>
@@ -41,7 +41,7 @@
     <preference name="show-splash-screen-spinner" value="true"/>
     <preference name="SplashScreen" value="screen" />
  	<preference name="SplashScreenDelay" value="5000" />
-    <preference name="auto-hide-splash-screen" value="false"/>    
+    <!-- <preference name="auto-hide-splash-screen" value="true"/> -->    
     <preference name="disable-cursor" value="false"/>
     <preference name="android-minSdkVersion" value="7"/>
     <preference name="android-installLocation" value="auto"/>
