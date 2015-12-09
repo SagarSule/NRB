@@ -4,7 +4,7 @@
 	xmlns:gap="http://phonegap.com/ns/1.0" 
 	xmlns:android="http://schemas.android.com/apk/mobione/android"
 	id="aakararts.nrb" 
-	version="1.0.0">
+	version="1.1.0">
     
     <name>NRB</name>
     <description>Ipad app to control model of NRB Head End Systems, Tarapur.
@@ -19,7 +19,7 @@
     <!-- Uncomment and edit to specify a specific phonegap version 
          otherwise use PhoneGap Build will use the most recent version 
     -->
-    <preference name="phonegap-version" value="3.5.0"/>
+    <preference name="phonegap-version" value="3.6.3"/>
     
 	<preference name="StatusBarOverlaysWebView" value="false"/> 
 	<preference name="StatusBarBackgroundColor" value="#000000"/>
@@ -38,10 +38,10 @@
     <preference name="stay-in-webview" value="true"/>
     <preference name="detect-data-types" value="true"/>
     <preference name="exit-on-suspend" value="true"/>
-    <preference name="show-splash-screen-spinner" value="true"/>
-    <preference name="SplashScreen" value="screen" />
+    <preference name="show-splash-screen-spinner" value="false"/>
+    <preference name="SplashScreen" value="splash" />
  	<preference name="SplashScreenDelay" value="5000" />
-    <!-- <preference name="auto-hide-splash-screen" value="true"/> -->    
+    <preference name="auto-hide-splash-screen" value="true"/>    
     <preference name="disable-cursor" value="false"/>
     <preference name="android-minSdkVersion" value="7"/>
     <preference name="android-installLocation" value="auto"/>
@@ -79,7 +79,7 @@
 
 
 	<!-- iOS app branding artwork -->
-    <icon gap:platform="ios" width="144" height="144" src="branding/icon/ios/icon-72-2x.png"/>
+    <icon gap:platform="ios" width="144" height="144" src="images/icon.png"/>
 
 	<!-- Whitelist of urls this app may open in an InAppBrowser -->
     <access origin="*"/>
