@@ -19,8 +19,9 @@
     <!-- Uncomment and edit to specify a specific phonegap version 
          otherwise use PhoneGap Build will use the most recent version 
     -->
-    <preference name="phonegap-version" value="3.6.3"/>
-    
+    <!-- <preference name="phonegap-version" value="3.6.3"/> -->
+    <preference name="phonegap-version" value="cli-5.2.0"/>
+	
 	<preference name="StatusBarOverlaysWebView" value="false"/> 
 	<preference name="StatusBarBackgroundColor" value="#000000"/>
 	<preference name="StatusBarStyle" value="lightcontent"/>
