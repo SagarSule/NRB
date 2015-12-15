@@ -22,7 +22,7 @@
     <!-- <preference name="phonegap-version" value="3.6.3"/> -->
     <preference name="phonegap-version" value="cli-5.2.0"/>
 	
-	<preference name="StatusBarOverlaysWebView" value="true"/> 
+	<preference name="StatusBarOverlaysWebView" value="false"/> 
 	<preference name="StatusBarBackgroundColor" value="#000000"/>
 	<preference name="StatusBarStyle" value="lightcontent"/>
     <preference name="ios-statusbarstyle" value="black-opaque"/>
@@ -33,6 +33,7 @@
     <preference name="permissions" value="none"/>
     <preference name="orientation" value="landscape"/>
     <preference name="target-device" value="tablet"/>
+	<preference name="EnableViewportScale" value="true"/>
     <preference name="fullscreen" value="true"/> <!-- set false to show android statusbar -->
     <preference name="webviewbounce" value="true"/>
     <preference name="prerendered-icon" value="true"/>
