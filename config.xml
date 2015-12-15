@@ -33,7 +33,7 @@
     <preference name="permissions" value="none"/>
     <preference name="orientation" value="landscape"/>
     <preference name="target-device" value="tablet"/>
-	<preference name="EnableViewportScale" value="true"/>
+	<preference name="EnableViewportScale" value="false"/>
     <preference name="fullscreen" value="true"/> <!-- set false to show android statusbar -->
     <preference name="webviewbounce" value="true"/>
     <preference name="prerendered-icon" value="true"/>
