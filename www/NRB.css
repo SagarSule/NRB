@@ -248,7 +248,7 @@
   -webkit-border-radius: 0px;
 }
 
-#m1-NRB-image1.m1-clicked{
+#m1-NRB-mute.m1-clicked{
   -webkit-border-image: url(images/mute.png) 1 1 1 1 stretch stretch;
 }
 
@@ -264,7 +264,7 @@ body{
   width: 300px;
 }
 
-#m1-NRB-image1{
+#m1-NRB-mute{
   -webkit-border-image: url(images/unmute.png) 1 1 1 1 stretch stretch;
   border-width: 1px 1px 1px 1px;
   height: 50px;

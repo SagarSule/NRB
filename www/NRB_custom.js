@@ -78,14 +78,16 @@ allOff = function()
 	$('#m1-NRB-o_CHOP').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	$('#m1-NRB-o_HULL').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	
-	$('#m1-NRB-n_FULL').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
+	$('#m1-NRB-n_Full').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	
 	$('#m1-NRB-s_Home').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	$('#m1-NRB-s_LED').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	$('#m1-NRB-s_Reset').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	$('#m1-NRB-s_TV').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
 	$('#m1-NRB-s_Off').css({'background-color': 'rgb(0,78,149)'}); //Dark Blue
-	
+	$('#m1-NRB-o_TRUCK').html('TRUCK FORWARD');
+	$('#m1-NRB-n_Full').html('HEAD END SYSTEM ANIMATION');
+
 	
 }
 
